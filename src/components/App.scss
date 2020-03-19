@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+$bg: #d3d3d34a;
+$color: coral;
+.sass-container {
+  background-color: $bg;
+  padding: 20px;
+  height: 100vh;
+  padding-top: 40px;
+}
+.sass-form {
+  width: 50%;
+  margin: 0 auto;
+}
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid coral;
+  box-sizing: border-box;
+}
+
+.sass-text-color {
+  color: $color;
+  font-family: cursive;
+  font-size: 25px;
+}
+.apply-css {
+  border: 5px solid white;
+  width: 100%;
+}
